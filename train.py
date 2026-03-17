@@ -7,7 +7,7 @@ import torchvision.transforms as transforms
 import matplotlib.pyplot as plt
 from tqdm import tqdm
 
-from models.custom_net import CustomNet
+from models import CustomNet
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print("Using device:", device)
